@@ -1,0 +1,35 @@
+{
+  "name": "restapicrudoperation",
+  "version": "1.0.0",
+  "keywords": [
+    "util",
+    "functional",
+    "server",
+    "client",
+    "browser"
+  ],
+  "author": "Ghanshyam",
+  "contributors": [],
+  "description": "The Project is going to have A REST API End point which can be use to perform CRUD operation which will be developed using Node Js,Express Js & MongoDB",
+  "main": "main.js",
+  "scripts": {
+    "test": "nodemon main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GhanshyamDubey83/RESTAPIUsingNodeExpressAndMongoDB.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GhanshyamDubey83/RESTAPIUsingNodeExpressAndMongoDB/issues"
+  },
+  "homepage": "https://github.com/GhanshyamDubey83/RESTAPIUsingNodeExpressAndMongoDB#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongodb": "^4.10.0",
+    "mongoose": "^6.6.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
