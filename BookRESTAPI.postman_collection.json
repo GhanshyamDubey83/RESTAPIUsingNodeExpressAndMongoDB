@@ -1,0 +1,105 @@
+{
+	"info": {
+		"_postman_id": "9949bce1-f308-404e-9a9e-7675510824db",
+		"name": "BookRESTAPI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get Operation",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:7474/HPBooksRoutes",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7474",
+					"path": [
+						"HPBooksRoutes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Insert Operation",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"name\": \"Avengers: Endgame\",\r\n\"img\": \"https://bit.ly/2Pzczlb\",\r\n\"summary\": \"Adrift in space with no food or water, Tony Stark sends amessage to Pepper Potts as his oxygen supply starts to dwindle. Meanwhile, theremaining Avengers -- Thor, Black Widow, Captain America, and Bruce Banner --must figure out a way to bring back their vanquished allies for an epic showdown with Thanos -- the evil demigod who decimated the planet and the universe.\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:7474/HPBooksRoutes",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7474",
+					"path": [
+						"HPBooksRoutes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Operation",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:7474/HPBooksRoutes/634962a3308b0091112518a2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7474",
+					"path": [
+						"HPBooksRoutes",
+						"634962a3308b0091112518a2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update Operation",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"name\": \"Avengers: Endgame\",\r\n        \"img\": \"https://bit.ly/2Pzczlb\",\r\n        \"summary\": \"Adrift in space with no food or water, Tony Stark sends amessage to Pepper Potts as his oxygen supply starts to dwindle. Meanwhile, theremaining Avengers -- Thor, Black Widow, Captain America, and Bruce Banner --must figure out a way to bring back their vanquished allies for an epic showdown with Thanos -- the evil demigod who decimated the planet and the universe.\"\r\n        \r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:7474/HPBooksRoutes/634962ff308b0091112518a5",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7474",
+					"path": [
+						"HPBooksRoutes",
+						"634962ff308b0091112518a5"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
